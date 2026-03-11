@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277863082976",
+    "project_id": "mecapp-c1133",
+    "storage_bucket": "mecapp-c1133.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277863082976:android:633f060300b8b809611985",
+        "android_client_info": {
+          "package_name": "com.cevm.mecapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3rUcX5VGDvN-y0HaONPZOOxtuZqa5Tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
