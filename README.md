@@ -111,7 +111,11 @@ A continuaciÃ³n se presenta el cÃ³digo de todos los archivos .kt del proyect
 ### MainActivity.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp
 
 import android.os.Bundle
@@ -139,12 +143,20 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### Navigation.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp
 
 
@@ -315,12 +327,20 @@ fun AppNavigation() {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### OrdenServicio.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.model
 
 import java.util.UUID
@@ -376,12 +396,20 @@ data class OrdenServicio(
     val notasSalida: String = ""
 )
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### SolicitudRevision.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.model
 
 /**
@@ -406,12 +434,20 @@ data class SolicitudRevision(
     val fechaSolicitud: Long = System.currentTimeMillis()
 )
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### Usuario.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.model
 
 
@@ -436,12 +472,20 @@ data class Usuario(
     val createdAt: Long = System.currentTimeMillis()
 )
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### AuthRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import com.google.firebase.auth.FirebaseAuth
@@ -601,12 +645,20 @@ class AuthRepository {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### OrdenRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import android.net.Uri
@@ -720,12 +772,20 @@ class OrdenRepository {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### SolicitudRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import com.cevm.mecapp.data.model.SolicitudRevision
@@ -818,12 +878,20 @@ class SolicitudRepository {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### AuthViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 
@@ -1006,12 +1074,20 @@ class AuthViewModel : ViewModel() {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### OrdenViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 
@@ -1142,12 +1218,20 @@ class OrdenViewModel : ViewModel() {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### SolicitudViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 import androidx.lifecycle.ViewModel
@@ -1262,12 +1346,20 @@ class SolicitudViewModel : ViewModel() {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### LoginScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.auth
 
 
@@ -1370,12 +1462,20 @@ fun LoginScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### RegistroScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.auth
 
 
@@ -1480,12 +1580,20 @@ fun RegistroScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### ClienteHomeScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 
@@ -1886,12 +1994,20 @@ fun OrdenCardCliente(orden: OrdenServicio, onVerDetalle: (String) -> Unit, onEli
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### DetalleOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 
@@ -2035,12 +2151,20 @@ fun ClienteDetalleScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### MapaTalleresScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 import android.Manifest
@@ -2216,12 +2340,20 @@ fun MapaTalleresScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### NuevaSolicitudScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 import androidx.compose.foundation.layout.*
@@ -2375,12 +2507,20 @@ fun NuevaSolicitudScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### EstadoBadge.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.components
 
 
@@ -2423,12 +2563,20 @@ fun EstadoBadge(estado: String) {
     )
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### EditarOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 import android.content.Intent
@@ -2687,12 +2835,20 @@ fun EditarOrdenScreen(
         }
     }
 }
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### MecanicoHomeScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 
@@ -3247,12 +3403,20 @@ fun SolicitudCardMecanico(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### NuevaOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 
@@ -3485,12 +3649,20 @@ fun NuevaOrdenScreen(
 }
 
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### UbicacionTallerScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 import android.Manifest
@@ -3689,12 +3861,20 @@ fun UbicacionTallerScreen(
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### Color.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.theme
 
 
@@ -3719,12 +3899,20 @@ val ColorReparacion = Color(0xFFE65100)
 val ColorListo      = Color(0xFF2E7D32)
 val ColorEntregado  = Color(0xFF6A1B9A)
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### Theme.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.theme
 
 import android.app.Activity
@@ -3792,12 +3980,20 @@ fun MecAppTheme(
         content = content
     )
 }
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### Type.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.theme
 
 import androidx.compose.material3.Typography
@@ -3832,12 +4028,20 @@ val Typography = Typography(
     )
     */
 )
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### PdfGenerator.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
+<<<<<<< HEAD
 ``kotlin
+=======
+```kotlin
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.utils
 
 
@@ -3945,4 +4149,8 @@ object PdfGenerator {
     }
 }
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
