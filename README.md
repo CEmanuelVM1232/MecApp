@@ -111,7 +111,7 @@ A continuaciÃ³n se presenta el cÃ³digo de todos los archivos .kt del proyect
 ### MainActivity.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp
 
 import android.os.Bundle
@@ -139,12 +139,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-``
+```
 
 ### Navigation.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp
 
 
@@ -315,12 +315,12 @@ fun AppNavigation() {
     }
 }
 
-``
+```
 
 ### OrdenServicio.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.model
 
 import java.util.UUID
@@ -376,12 +376,12 @@ data class OrdenServicio(
     val notasSalida: String = ""
 )
 
-``
+```
 
 ### SolicitudRevision.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.model
 
 /**
@@ -406,12 +406,12 @@ data class SolicitudRevision(
     val fechaSolicitud: Long = System.currentTimeMillis()
 )
 
-``
+```
 
 ### Usuario.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.model
 
 
@@ -436,12 +436,12 @@ data class Usuario(
     val createdAt: Long = System.currentTimeMillis()
 )
 
-``
+```
 
 ### AuthRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.repository
 
 import com.google.firebase.auth.FirebaseAuth
@@ -601,12 +601,12 @@ class AuthRepository {
     }
 }
 
-``
+```
 
 ### OrdenRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.repository
 
 import android.net.Uri
@@ -720,12 +720,12 @@ class OrdenRepository {
     }
 }
 
-``
+```
 
 ### SolicitudRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.data.repository
 
 import com.cevm.mecapp.data.model.SolicitudRevision
@@ -818,12 +818,12 @@ class SolicitudRepository {
     }
 }
 
-``
+```
 
 ### AuthViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui
 
 
@@ -1006,12 +1006,12 @@ class AuthViewModel : ViewModel() {
     }
 }
 
-``
+```
 
 ### OrdenViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui
 
 
@@ -1142,12 +1142,12 @@ class OrdenViewModel : ViewModel() {
     }
 }
 
-``
+```
 
 ### SolicitudViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui
 
 import androidx.lifecycle.ViewModel
@@ -1262,12 +1262,12 @@ class SolicitudViewModel : ViewModel() {
     }
 }
 
-``
+```
 
 ### LoginScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.auth
 
 
@@ -1370,12 +1370,12 @@ fun LoginScreen(
     }
 }
 
-``
+```
 
 ### RegistroScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.auth
 
 
@@ -1480,12 +1480,12 @@ fun RegistroScreen(
     }
 }
 
-``
+```
 
 ### ClienteHomeScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.cliente
 
 
@@ -1886,12 +1886,12 @@ fun OrdenCardCliente(orden: OrdenServicio, onVerDetalle: (String) -> Unit, onEli
     }
 }
 
-``
+```
 
 ### DetalleOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.cliente
 
 
@@ -2035,12 +2035,12 @@ fun ClienteDetalleScreen(
     }
 }
 
-``
+```
 
 ### MapaTalleresScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.cliente
 
 import android.Manifest
@@ -2216,12 +2216,12 @@ fun MapaTalleresScreen(
     }
 }
 
-``
+```
 
 ### NuevaSolicitudScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.cliente
 
 import androidx.compose.foundation.layout.*
@@ -2375,12 +2375,12 @@ fun NuevaSolicitudScreen(
     }
 }
 
-``
+```
 
 ### EstadoBadge.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.components
 
 
@@ -2423,12 +2423,12 @@ fun EstadoBadge(estado: String) {
     )
 }
 
-``
+```
 
 ### EditarOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.mecanico
 
 import android.content.Intent
@@ -2687,12 +2687,12 @@ fun EditarOrdenScreen(
         }
     }
 }
-``
+```
 
 ### MecanicoHomeScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.mecanico
 
 
@@ -3247,12 +3247,12 @@ fun SolicitudCardMecanico(
     }
 }
 
-``
+```
 
 ### NuevaOrdenScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.mecanico
 
 
@@ -3485,12 +3485,12 @@ fun NuevaOrdenScreen(
 }
 
 
-``
+```
 
 ### UbicacionTallerScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.mecanico
 
 import android.Manifest
@@ -3689,12 +3689,12 @@ fun UbicacionTallerScreen(
     }
 }
 
-``
+```
 
 ### Color.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.theme
 
 
@@ -3719,12 +3719,12 @@ val ColorReparacion = Color(0xFFE65100)
 val ColorListo      = Color(0xFF2E7D32)
 val ColorEntregado  = Color(0xFF6A1B9A)
 
-``
+```
 
 ### Theme.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.theme
 
 import android.app.Activity
@@ -3792,12 +3792,12 @@ fun MecAppTheme(
         content = content
     )
 }
-``
+```
 
 ### Type.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.ui.theme
 
 import androidx.compose.material3.Typography
@@ -3832,12 +3832,12 @@ val Typography = Typography(
     )
     */
 )
-``
+```
 
 ### PdfGenerator.kt
 *(UbicaciÃ³n: \$relativePath\)*
 
-``kotlin
+```kotlin
 package com.cevm.mecapp.utils
 
 
@@ -3945,4 +3945,4 @@ object PdfGenerator {
     }
 }
 
-``
+```
