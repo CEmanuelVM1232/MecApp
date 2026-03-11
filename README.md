@@ -112,7 +112,6 @@ A continuaciÃ³n se presenta el cÃ³digo de todos los archivos .kt del proyect
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp
 
 import android.os.Bundle
@@ -322,7 +321,6 @@ fun AppNavigation() {
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.model
 
 import java.util.UUID
@@ -379,7 +377,6 @@ data class OrdenServicio(
 )
 
 ```
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 
 ### SolicitudRevision.kt
 *(UbicaciÃ³n: \$relativePath\)*
@@ -441,7 +438,6 @@ data class Usuario(
 ### AuthRepository.kt
 *(UbicaciÃ³n: \$relativePath\)*
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import com.google.firebase.auth.FirebaseAuth
@@ -605,7 +601,6 @@ class AuthRepository {
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import android.net.Uri
@@ -725,7 +720,6 @@ class OrdenRepository {
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.data.repository
 
 import com.cevm.mecapp.data.model.SolicitudRevision
@@ -823,7 +817,6 @@ class SolicitudRepository {
 ### AuthViewModel.kt
 *(UbicaciÃ³n: \$relativePath\)*
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 
@@ -1012,7 +1005,6 @@ class AuthViewModel : ViewModel() {
 *(UbicaciÃ³n: \$relativePath\)*
 =======
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 
@@ -1149,7 +1141,6 @@ class OrdenViewModel : ViewModel() {
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui
 
 import androidx.lifecycle.ViewModel
@@ -1486,7 +1477,6 @@ fun RegistroScreen(
 ### ClienteHomeScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 
@@ -1893,7 +1883,6 @@ fun OrdenCardCliente(orden: OrdenServicio, onVerDetalle: (String) -> Unit, onEli
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 
@@ -2223,7 +2212,6 @@ fun MapaTalleresScreen(
 ### NuevaSolicitudScreen.kt
 *(UbicaciÃ³n: \$relativePath\)*
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.cliente
 
 import androidx.compose.foundation.layout.*
@@ -2383,7 +2371,6 @@ fun NuevaSolicitudScreen(
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.components
 
 
@@ -2432,7 +2419,6 @@ fun EstadoBadge(estado: String) {
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 import android.content.Intent
@@ -3495,7 +3481,6 @@ fun NuevaOrdenScreen(
 *(UbicaciÃ³n: \$relativePath\)*
 
 ```kotlin
->>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
 package com.cevm.mecapp.ui.mecanico
 
 import android.Manifest
