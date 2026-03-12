@@ -109,9 +109,10 @@ Si deseas replicar este proyecto desde cero o entender cómo está estructurado,
 A continuaciÃ³n se presenta el cÃ³digo de todos los archivos .kt del proyecto ordenados:
 
 ### MainActivity.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
+
 package com.cevm.mecapp
 
 import android.os.Bundle
@@ -142,7 +143,7 @@ class MainActivity : ComponentActivity() {
    ```
 
 ### Navigation.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 
@@ -318,7 +319,7 @@ fun AppNavigation() {
 
 ```
 ### OrdenServicio.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.data.model
@@ -379,7 +380,7 @@ data class OrdenServicio(
 ```
 
 ### SolicitudRevision.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.data.model
 
@@ -406,7 +407,7 @@ data class SolicitudRevision(
 )
 ```
 ### Usuario.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.data.model
@@ -436,7 +437,7 @@ data class Usuario(
 ```
 
 ### AuthRepository.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.data.repository
 
@@ -598,7 +599,7 @@ class AuthRepository {
 }
 ```
 ### OrdenRepository.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.data.repository
@@ -717,7 +718,7 @@ class OrdenRepository {
 ```
 
 ### SolicitudRepository.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.data.repository
@@ -815,7 +816,7 @@ class SolicitudRepository {
 ```
 
 ### AuthViewModel.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.ui
 
@@ -1002,8 +1003,7 @@ class AuthViewModel : ViewModel() {
 ```
 
 ### OrdenViewModel.kt
-*(UbicaciÃ³n: \$relativePath\)*
-=======
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.ui
 
@@ -1138,7 +1138,7 @@ class OrdenViewModel : ViewModel() {
 ```
 
 ### SolicitudViewModel.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui
@@ -1258,7 +1258,7 @@ class SolicitudViewModel : ViewModel() {
 ```
 
 ### LoginScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.ui.auth
 
@@ -1365,7 +1365,7 @@ fun LoginScreen(
 ```
 
 ### RegistroScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.auth
@@ -1475,7 +1475,7 @@ fun RegistroScreen(
 ```
 
 ### ClienteHomeScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.ui.cliente
 
@@ -1880,7 +1880,7 @@ fun OrdenCardCliente(orden: OrdenServicio, onVerDetalle: (String) -> Unit, onEli
 ```
 
 ### DetalleOrdenScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.cliente
@@ -2029,7 +2029,7 @@ fun ClienteDetalleScreen(
 ```
 
 ### MapaTalleresScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.cliente
@@ -2210,7 +2210,7 @@ fun MapaTalleresScreen(
 ```
 
 ### NuevaSolicitudScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 ```kotlin
 package com.cevm.mecapp.ui.cliente
 
@@ -2368,7 +2368,7 @@ fun NuevaSolicitudScreen(
 ```
 
 ### EstadoBadge.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.components
@@ -2416,7 +2416,7 @@ fun EstadoBadge(estado: String) {
 ```
 
 ### EditarOrdenScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.mecanico
@@ -2680,7 +2680,7 @@ fun EditarOrdenScreen(
 ```
 
 ### MecanicoHomeScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.mecanico
@@ -3240,7 +3240,7 @@ fun SolicitudCardMecanico(
 ```
 
 ### NuevaOrdenScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.mecanico
@@ -3478,7 +3478,7 @@ fun NuevaOrdenScreen(
 ```
 
 ### UbicacionTallerScreen.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.mecanico
@@ -3682,7 +3682,7 @@ fun UbicacionTallerScreen(
 ```
 
 ### Color.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.theme
@@ -3712,7 +3712,7 @@ val ColorEntregado  = Color(0xFF6A1B9A)
 ```
 
 ### Theme.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 >>>>>>> fd421976de444888906f92fc1d24353a095ffc9b
@@ -3786,7 +3786,7 @@ fun MecAppTheme(
 ```
 
 ### Type.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 package com.cevm.mecapp.ui.theme
@@ -3826,7 +3826,7 @@ val Typography = Typography(
 ```
 
 ### PdfGenerator.kt
-*(UbicaciÃ³n: \$relativePath\)*
+*(Ubicación: \$relativePath\)*
 
 ```kotlin
 
