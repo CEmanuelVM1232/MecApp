@@ -103,10 +103,23 @@ Si deseas replicar este proyecto desde cero o entender cómo está estructurado,
 
 [Especificar licencia del proyecto, por ejemplo: MIT License]
 
+---
+## Pruevas y documentos
+### Video en YouTube
+https://docs.google.com/document/d/1NtGcVmVEu3czYK3-JLXq88E8BIHU4t-p86Wq7WA1LX8/edit?usp=sharing
+### Encuestas
+https://docs.google.com/document/d/1583OT2bJRhiAJdwcidoOIPEi4ZrFyGsW8PEr-z8RUbA/edit?usp=sharing
+### Preferencia de descarga en github pages
+https://docs.google.com/document/d/1Yy8OvkGbSyG5q5O7S3SuE049893ypH6viFUAPDyW2DQ/edit?usp=sharing
+### Links Google Forms
+### Encuestas para Clientes
+https://docs.google.com/forms/d/1a5LfDt0mK6xIHIJScfpnqmhn3SzLrAP5MQR482uOUhk/edit
+### Encuestas para Mecanicos 
+https://docs.google.com/forms/d/1gXTn23NqI_zURZOXvR2PsIwQWLfdLzTKYqM8auEzlk8/edit#responses
 
-## ðŸ’» CÃ³digo Fuente de la AplicaciÃ³n
-
-A continuaciÃ³n se presenta el cÃ³digo de todos los archivos .kt del proyecto ordenados:
+---
+## Código fuente del Ptoyecto 
+A continuación se presenta el código de todos los archivos .kt del proyecto ordenados:
 
 ### MainActivity.kt
 *(Ubicación: \$relativePath\)*
