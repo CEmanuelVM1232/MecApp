@@ -3951,3 +3951,5 @@ object PdfGenerator {
 }
 
 ```
+## Imajen de icono app
+
