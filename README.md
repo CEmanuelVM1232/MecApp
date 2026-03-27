@@ -95,13 +95,6 @@ Si deseas replicar este proyecto desde cero o entender cómo está estructurado,
 5.  Sincroniza los archivos de Gradle.
 6.  Ejecuta la app en un emulador o dispositivo físico con Android 8.0 (API 26) o superior.
 
-## 👥 Contribuciones
-
-[Elaborar políticas de contribución si se desea hacer el proyecto de código abierto]
-
-## 📜 Licencia
-
-[Especificar licencia del proyecto, por ejemplo: MIT License]
 
 ---
 ## Pruevas y documentos
